@@ -16,7 +16,7 @@
 
 ## 🧱 Session 1: Project Setup & Homepage Foundations
 
-[Navigate to Lab's Page](/labs/lab1.md)
+### 👉[Navigate to Lab's Page](/labs/lab1.md)
 
 ✅ Objectives:
 - Initialize a new Next.js app and install TailwindCSS.
@@ -35,6 +35,8 @@
 
 ## 📂 Session 2: Projects Page & Dynamic Routing
 
+### 👉[Navigate to Lab's Page](/labs/lab2.md)
+
 ✅ Objectives:
 - 📁 Create /projects page with a dynamic list of all projects.
 - 🔗 Add individual project detail pages via [slug].js or [id].js.
@@ -49,6 +51,7 @@
 ## 📤 Session 3: Contact Page, GitHub API & Notifications
 
 ✅ Objectives:
+- 🚫 Add a generic yet Dynamic 404 Page, displaying a message
 - 📤 Build a contact form with Name, Email, Message fields.
 - 📬 Set up a Next.js API route to send emails (e.g., via Resend or Nodemailer).
 - 🪄 Add toast notifications for:
