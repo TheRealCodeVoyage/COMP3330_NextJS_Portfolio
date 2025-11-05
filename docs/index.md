@@ -50,6 +50,8 @@
 
 ## 📤 Session 3: Contact Page, GitHub API & Notifications
 
+### 👉[Navigate to Lab's Page](/labs/lab3.md)
+
 ✅ Objectives:
 - 🚫 Add a generic yet Dynamic 404 Page, displaying a message
 - 📤 Build a contact form with Name, Email, Message fields.
