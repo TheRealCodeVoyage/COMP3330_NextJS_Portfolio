@@ -172,6 +172,8 @@ npx shadcn@latest add sonner
 
 You’ll surface GitHub activity on your site.
 
+Repo to use: [GitHub Calendar Activity](https://github.com/imananoosheh/github-contributions-widget)
+
 Contributions Calendar (external script)
 - Create `components/github-calendar.jsx`.
 - Use Next’s `<Script />` to load the widget script from a CDN and render a placeholder `<div>` that the script populates.
