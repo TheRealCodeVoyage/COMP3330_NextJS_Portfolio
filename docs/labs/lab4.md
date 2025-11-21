@@ -158,7 +158,7 @@ npm install @neondatabase/serverless
 
 - DB helper `src/lib/db.js` (outline):
 
-[Download db.js reference from here](/files/db.js)
+[Download db.js reference from here](../files/db.js)
 
 ```js
 "use server";
