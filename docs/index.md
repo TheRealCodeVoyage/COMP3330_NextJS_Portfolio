@@ -69,13 +69,15 @@
 
 ## 🔐 Session 4: Authentication & Protected Dashboard
 
+### 👉[Navigate to Lab's Page](/labs/lab4.md)
+
 ✅ Objectives:
-- 🔐 Build a login page (email + password).
-- 🔒 Protect the /dashboard route using middleware or session check.
-- 🧑‍💻 Start dashboard layout with tabs or cards for:
-- Project Management (CRUD)
-- Hero Content Editing
-- 🔑 Implement .env setup for secrets (Resend key, DB credentials, etc.)
+- Auth0: configure tenant, wire SDK, and expose helpers to read the session in server components and API routes.
+- Protected routes: gate `/dashboard` (and future admin areas) so unauthenticated visitors are redirected to Auth0 login.
+- Database: connect to Neon Postgres, seed projects, and build reusable CRUD helpers.
+- API: ship authenticated CRUD endpoints under `/api/projects`.
+- UI wiring: show/hide Add/Edit/Delete controls based on session and fetch projects through API routes.
+- Editing: add `/projects/[uuid]/edit` with a prefilled form that updates or deletes DB rows.
 
 💡 Outcome: Authenticated users gain access to a styled, protected dashboard with placeholder content editors.
 
