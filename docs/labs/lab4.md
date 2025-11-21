@@ -179,16 +179,16 @@ function mapProject(row) {
 
 export async function ensureProjectsTable() {
   await sql`
-    create table if not exists projects (
-      id uuid primary key default gen_random_uuid(),
-      title text not null,
-      description text not null,
-      image text,
-      link text,
-      keywords text[],
-      created_at timestamptz default now(),
-      updated_at timestamptz default now()
-    );
+    CREATE TABLE IF NOT EXISTS projects (
+      id uuid PRIMARY KEY,
+      title text NOT NULL,
+      description text NOT NULL,
+      img text NOT NULL,
+      link text NOT NULL,
+      keywords jsonb NOT NULL DEFAULT '[]'::jsonb,
+      created_at timestamptz NOT NULL DEFAULT now(),
+      updated_at timestamptz NOT NULL DEFAULT now()
+    )
   `;
 }
 
