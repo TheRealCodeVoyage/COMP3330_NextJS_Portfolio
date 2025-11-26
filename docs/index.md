@@ -85,16 +85,13 @@
 
 ## 🧠 Session 5: CRUD + DB Integration + Deployment
 
-✅ Objectives:
-- 🧠 Connect frontend to API routes for full-stack CRUD operations.
-- 🗃️ Integrate a simple database (e.g., SQLite, Supabase, or Prisma + PostgreSQL).
-- Store: projects and hero section content
-- Read: on homepage, projects page
-- Write/update/delete: from dashboard
-- 🚀 Deploy entire site on Vercel (or Netlify as fallback)
-- Final review:
-- 🔍 Clean up code
-- ⛳ Test all flows
-- 🎯 Showcase possible optional extensions
+### 👉[Navigate to Lab's Page](/labs/lab5.md)
 
-💡 Outcome: You walk away with a deployed, dynamic portfolio site with full-stack features and admin capabilities.
+✅ Objectives:
+- Persist hero profile (avatar + copy) in Neon Postgres.
+- Authenticated hero CRUD at `/api/hero` (public GET, guarded PUT).
+- Protected `/dashboard` with a hero editor form (file upload → data URL).
+- Homepage hero pulls live DB data with safe fallbacks.
+- Deploy-ready: Vercel envs + Auth0 callback/origin updates; smoke test live login/logout.
+
+💡 Outcome: Live site with a protected hero editor, `/api/hero` wired to Neon, homepage reading fresh DB content, and Vercel deployment with working Auth0 login/logout.
